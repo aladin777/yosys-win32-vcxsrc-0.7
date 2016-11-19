@@ -1,0 +1,690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="../yosys/backends/blif/blif.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/backends/btor/btor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/backends/edif/edif.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/backends/ilang/ilang_backend.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/backends/intersynth/intersynth.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/backends/json/json.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/backends/smt2/smt2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/backends/smv/smv.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/backends/spice/spice.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/backends/verilog/verilog_backend.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/ast/ast.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/ast/dpicall.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/ast/genrtlil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/ast/simplify.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/blif/blifparse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/ilang/ilang_frontend.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/ilang/ilang_lexer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/ilang/ilang_parser.tab.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/liberty/liberty.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/verific/verific.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/verilog/const2ast.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/verilog/preproc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/verilog/verilog_frontend.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/verilog/verilog_lexer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/verilog/verilog_parser.tab.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/frontends/vhdl2verilog/vhdl2verilog.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/kernel/calc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/kernel/cellaigs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/kernel/celledges.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/kernel/driver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/kernel/log.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/kernel/register.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/kernel/rtlil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/kernel/yosys.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/bigint/BigIntegerAlgorithms.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/bigint/BigInteger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/bigint/BigIntegerUtils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/bigint/BigUnsigned.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/bigint/BigUnsignedInABase.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/ezsat/ezminisat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/ezsat/ezsat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/minisat/Options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/minisat/SimpSolver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/minisat/Solver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/minisat/System.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/sha1/sha1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/libs/subcircuit/subcircuit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/add.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/check.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/connect.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/connwrappers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/copy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/cover.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/delete.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/design.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/edgetypes.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/logcmd.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/qwp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/rename.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/scatter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/scc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/select.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/setattr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/setundef.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/show.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/splice.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/splitnets.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/stat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/tee.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/torder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/trace.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/cmds/write_file.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/equiv/equiv_add.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/equiv/equiv_induct.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/equiv/equiv_make.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/equiv/equiv_mark.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/equiv/equiv_miter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/equiv/equiv_purge.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/equiv/equiv_remove.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/equiv/equiv_simple.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/equiv/equiv_status.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/equiv/equiv_struct.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/fsm/fsm.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/fsm/fsm_detect.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/fsm/fsm_expand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/fsm/fsm_export.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/fsm/fsm_extract.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/fsm/fsm_info.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/fsm/fsm_map.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/fsm/fsm_opt.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/fsm/fsm_recode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/hierarchy/hierarchy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/hierarchy/singleton.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/hierarchy/submod.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/memory/memory_bram.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/memory/memory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/memory/memory_collect.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/memory/memory_dff.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/memory/memory_map.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/memory/memory_memx.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/memory/memory_share.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/memory/memory_unpack.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/opt/opt.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/opt/opt_clean.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/opt/opt_expr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/opt/opt_merge.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/opt/opt_muxtree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/opt/opt_reduce.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/opt/opt_rmdff.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/opt/share.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/opt/wreduce.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/proc/proc_arst.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/proc/proc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/proc/proc_clean.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/proc/proc_dff.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/proc/proc_dlatch.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/proc/proc_init.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/proc/proc_mux.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/proc/proc_rmdead.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/sat/assertpmux.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/sat/clk2fflogic.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/sat/eval.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/sat/expose.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/sat/freduce.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/sat/miter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/sat/sat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/abc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/aigmap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/alumacc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/attrmap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/attrmvcp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/deminout.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/dff2dffe.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/dffinit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/dfflibmap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/dffsr2dff.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/extract.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/hilomap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/insbuf.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/iopadmap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/libparse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/lut2mux.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/maccmap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/muxcover.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/nlutmap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/pmuxtree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/shregmap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/simplemap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/techmap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/tribuf.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/techmap/zinit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/tests/test_abcloop.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/tests/test_autotb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/passes/tests/test_cell.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/techlibs/common/prep.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/techlibs/common/synth.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/techlibs/gowin/synth_gowin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/techlibs/greenpak4/greenpak4_counters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/techlibs/greenpak4/greenpak4_dffinv.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/techlibs/greenpak4/synth_greenpak4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/techlibs/ice40/ice40_ffinit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/techlibs/ice40/ice40_ffssr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/techlibs/ice40/ice40_opt.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/techlibs/ice40/synth_ice40.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/techlibs/xilinx/synth_xilinx.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="../yosys/kernel/version.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="../yosys/backends/ilang/ilang_backend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/frontends/ast/ast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/frontends/blif/blifparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/frontends/ilang/ilang_frontend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/frontends/ilang/ilang_parser.tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/frontends/verilog/verilog_frontend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/frontends/verilog/verilog_parser.tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/bitpattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/cellaigs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/celledges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/celltypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/consteval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/cost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/hashlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/macc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/modtools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/rtlil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/satgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/sigtools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/kernel/yosys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/bigint/BigIntegerAlgorithms.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/bigint/BigInteger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/bigint/BigIntegerLibrary.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/bigint/BigIntegerUtils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/bigint/BigUnsigned.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/bigint/BigUnsignedInABase.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/bigint/NumberlikeArray.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/ezsat/ezminisat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/ezsat/ezsat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/Alg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/Alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/Heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/IntMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/IntTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/Options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/ParseUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/SimpSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/Solver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/SolverTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/Sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/Vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/minisat/XAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/sha1/sha1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/libs/subcircuit/subcircuit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/passes/fsm/fsmdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/passes/techmap/libparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/passes/techmap/simplemap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/passes/techmap/techmap.inc">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/techlibs/common/simcells_help.inc">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="../yosys/techlibs/common/simlib_help.inc">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
